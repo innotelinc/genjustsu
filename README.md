@@ -1,3 +1,7 @@
+
+[![CI](https://github.com/innotelinc/genjustsu/actions/workflows/ci.yml/badge.svg)](https://github.com/innotelinc/genjustsu/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 <p align="center">
   <a href="https://tein.ai"><img src="docs/branding/tein-ai-banner.svg" width="960" alt="TEIN AI — Open-source AI workflows. Click to join the waitlist." /></a>
 </p>
@@ -21,6 +25,18 @@
 </p>
 
 A local UI and agent-assisted workflow for replacing video subjects using colored depth, SAM 3 masks and Seedance through Enhancor. Draft first; approve before 1080p. The final export restores the **entire original source audio**, not generated audio.
+
+## Why TEIN AI
+
+| Problem | Answer |
+| --- | --- |
+| An AI pipeline is a script nobody else can read. | The graph is the program, and each node's input and output is visible. |
+| Every provider has a different client. | One node vocabulary reaches an OpenAI-compatible gateway. |
+| A workflow is hard to share. | Export and import the graph, with the model choices it made. |
+
+Its place in the stack is [docs/stack.md](docs/stack.md); the canonical
+definition of the shared layers is the
+[Innotel Platform Stack](https://github.com/innotelinc/innotel-platform-stack).
 
 ## Get access
 
